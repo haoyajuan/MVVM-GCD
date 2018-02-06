@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29FFDF131D17EA7F00FF8E44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF121D17EA7F00FF8E44 /* main.m */; };
+		29FFDF161D17EA7F00FF8E44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF151D17EA7F00FF8E44 /* AppDelegate.m */; };
+		29FFDF191D17EA7F00FF8E44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF181D17EA7F00FF8E44 /* ViewController.m */; };
+		29FFDF1E1D17EA7F00FF8E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FFDF1D1D17EA7F00FF8E44 /* Assets.xcassets */; };
+		29FFDF211D17EA7F00FF8E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FFDF1F1D17EA7F00FF8E44 /* LaunchScreen.storyboard */; };
+		29FFDF2C1D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF2B1D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownTests.m */; };
+		29FFDF371D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF361D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownUITests.m */; };
+		29FFDF5F1D17EDB100FF8E44 /* OrderInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF5A1D17EDB100FF8E44 /* OrderInfoModel.m */; };
+		29FFDF601D17EDB100FF8E44 /* OrderInfoUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF5C1D17EDB100FF8E44 /* OrderInfoUIModel.m */; };
+		29FFDF641D17F21E00FF8E44 /* CountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF631D17F21E00FF8E44 /* CountdownView.m */; };
+		29FFDF671D17F2BB00FF8E44 /* CountDownViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF661D17F2BB00FF8E44 /* CountDownViewModel.m */; };
+		29FFDF721D18D96500FF8E44 /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF6F1D18D96500FF8E44 /* OrderTableViewCell.m */; };
+		29FFDF731D18D96500FF8E44 /* OrderTableViewCellFrames.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FFDF711D18D96500FF8E44 /* OrderTableViewCellFrames.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29FFDF281D17EA7F00FF8E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FFDF061D17EA7F00FF8E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29FFDF0D1D17EA7F00FF8E44;
+			remoteInfo = "Demo-MVVM+TimeCountDown";
+		};
+		29FFDF331D17EA7F00FF8E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FFDF061D17EA7F00FF8E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29FFDF0D1D17EA7F00FF8E44;
+			remoteInfo = "Demo-MVVM+TimeCountDown";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29FFDF0E1D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-MVVM+TimeCountDown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FFDF121D17EA7F00FF8E44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29FFDF141D17EA7F00FF8E44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29FFDF151D17EA7F00FF8E44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29FFDF171D17EA7F00FF8E44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Demo-MVVM+TimeCountDown/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		29FFDF181D17EA7F00FF8E44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Demo-MVVM+TimeCountDown/ViewController.m"; sourceTree = SOURCE_ROOT; };
+		29FFDF1D1D17EA7F00FF8E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29FFDF201D17EA7F00FF8E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29FFDF221D17EA7F00FF8E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FFDF271D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-MVVM+TimeCountDownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FFDF2B1D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_MVVM_TimeCountDownTests.m; sourceTree = "<group>"; };
+		29FFDF2D1D17EA7F00FF8E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FFDF321D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-MVVM+TimeCountDownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FFDF361D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_MVVM_TimeCountDownUITests.m; sourceTree = "<group>"; };
+		29FFDF381D17EA7F00FF8E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FFDF591D17EDB100FF8E44 /* OrderInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderInfoModel.h; sourceTree = "<group>"; };
+		29FFDF5A1D17EDB100FF8E44 /* OrderInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderInfoModel.m; sourceTree = "<group>"; };
+		29FFDF5B1D17EDB100FF8E44 /* OrderInfoUIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderInfoUIModel.h; sourceTree = "<group>"; };
+		29FFDF5C1D17EDB100FF8E44 /* OrderInfoUIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderInfoUIModel.m; sourceTree = "<group>"; };
+		29FFDF621D17F21E00FF8E44 /* CountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownView.h; sourceTree = "<group>"; };
+		29FFDF631D17F21E00FF8E44 /* CountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownView.m; sourceTree = "<group>"; };
+		29FFDF651D17F2BB00FF8E44 /* CountDownViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewModel.h; sourceTree = "<group>"; };
+		29FFDF661D17F2BB00FF8E44 /* CountDownViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownViewModel.m; sourceTree = "<group>"; };
+		29FFDF6E1D18D96500FF8E44 /* OrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
+		29FFDF6F1D18D96500FF8E44 /* OrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
+		29FFDF701D18D96500FF8E44 /* OrderTableViewCellFrames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCellFrames.h; sourceTree = "<group>"; };
+		29FFDF711D18D96500FF8E44 /* OrderTableViewCellFrames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCellFrames.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29FFDF0B1D17EA7F00FF8E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FFDF241D17EA7F00FF8E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FFDF2F1D17EA7F00FF8E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29FFDF051D17EA7F00FF8E44 = {
+			isa = PBXGroup;
+			children = (
+				29FFDF101D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDown */,
+				29FFDF2A1D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownTests */,
+				29FFDF351D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownUITests */,
+				29FFDF0F1D17EA7F00FF8E44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29FFDF0F1D17EA7F00FF8E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FFDF0E1D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDown.app */,
+				29FFDF271D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownTests.xctest */,
+				29FFDF321D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29FFDF101D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDown */ = {
+			isa = PBXGroup;
+			children = (
+				29FFDF581D17EDB100FF8E44 /* Model */,
+				29FFDF441D17ED9E00FF8E44 /* View */,
+				29FFDF541D17EDAA00FF8E44 /* ViewModel */,
+				29FFDF741D191A7D00FF8E44 /* ViewController */,
+				29FFDF111D17EA7F00FF8E44 /* Supporting Files */,
+			);
+			path = "Demo-MVVM+TimeCountDown";
+			sourceTree = "<group>";
+		};
+		29FFDF111D17EA7F00FF8E44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29FFDF141D17EA7F00FF8E44 /* AppDelegate.h */,
+				29FFDF151D17EA7F00FF8E44 /* AppDelegate.m */,
+				29FFDF1D1D17EA7F00FF8E44 /* Assets.xcassets */,
+				29FFDF1F1D17EA7F00FF8E44 /* LaunchScreen.storyboard */,
+				29FFDF221D17EA7F00FF8E44 /* Info.plist */,
+				29FFDF121D17EA7F00FF8E44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29FFDF2A1D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				29FFDF2B1D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownTests.m */,
+				29FFDF2D1D17EA7F00FF8E44 /* Info.plist */,
+			);
+			path = "Demo-MVVM+TimeCountDownTests";
+			sourceTree = "<group>";
+		};
+		29FFDF351D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29FFDF361D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownUITests.m */,
+				29FFDF381D17EA7F00FF8E44 /* Info.plist */,
+			);
+			path = "Demo-MVVM+TimeCountDownUITests";
+			sourceTree = "<group>";
+		};
+		29FFDF441D17ED9E00FF8E44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29FFDF6E1D18D96500FF8E44 /* OrderTableViewCell.h */,
+				29FFDF6F1D18D96500FF8E44 /* OrderTableViewCell.m */,
+				29FFDF701D18D96500FF8E44 /* OrderTableViewCellFrames.h */,
+				29FFDF711D18D96500FF8E44 /* OrderTableViewCellFrames.m */,
+				29FFDF621D17F21E00FF8E44 /* CountdownView.h */,
+				29FFDF631D17F21E00FF8E44 /* CountdownView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29FFDF541D17EDAA00FF8E44 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				29FFDF651D17F2BB00FF8E44 /* CountDownViewModel.h */,
+				29FFDF661D17F2BB00FF8E44 /* CountDownViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		29FFDF581D17EDB100FF8E44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29FFDF591D17EDB100FF8E44 /* OrderInfoModel.h */,
+				29FFDF5A1D17EDB100FF8E44 /* OrderInfoModel.m */,
+				29FFDF5B1D17EDB100FF8E44 /* OrderInfoUIModel.h */,
+				29FFDF5C1D17EDB100FF8E44 /* OrderInfoUIModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29FFDF741D191A7D00FF8E44 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29FFDF171D17EA7F00FF8E44 /* ViewController.h */,
+				29FFDF181D17EA7F00FF8E44 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29FFDF0D1D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FFDF3B1D17EA7F00FF8E44 /* Build configuration list for PBXNativeTarget "Demo-MVVM+TimeCountDown" */;
+			buildPhases = (
+				29FFDF0A1D17EA7F00FF8E44 /* Sources */,
+				29FFDF0B1D17EA7F00FF8E44 /* Frameworks */,
+				29FFDF0C1D17EA7F00FF8E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo-MVVM+TimeCountDown";
+			productName = "Demo-MVVM+TimeCountDown";
+			productReference = 29FFDF0E1D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29FFDF261D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FFDF3E1D17EA7F00FF8E44 /* Build configuration list for PBXNativeTarget "Demo-MVVM+TimeCountDownTests" */;
+			buildPhases = (
+				29FFDF231D17EA7F00FF8E44 /* Sources */,
+				29FFDF241D17EA7F00FF8E44 /* Frameworks */,
+				29FFDF251D17EA7F00FF8E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29FFDF291D17EA7F00FF8E44 /* PBXTargetDependency */,
+			);
+			name = "Demo-MVVM+TimeCountDownTests";
+			productName = "Demo-MVVM+TimeCountDownTests";
+			productReference = 29FFDF271D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29FFDF311D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FFDF411D17EA7F00FF8E44 /* Build configuration list for PBXNativeTarget "Demo-MVVM+TimeCountDownUITests" */;
+			buildPhases = (
+				29FFDF2E1D17EA7F00FF8E44 /* Sources */,
+				29FFDF2F1D17EA7F00FF8E44 /* Frameworks */,
+				29FFDF301D17EA7F00FF8E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29FFDF341D17EA7F00FF8E44 /* PBXTargetDependency */,
+			);
+			name = "Demo-MVVM+TimeCountDownUITests";
+			productName = "Demo-MVVM+TimeCountDownUITests";
+			productReference = 29FFDF321D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29FFDF061D17EA7F00FF8E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HYJ;
+				TargetAttributes = {
+					29FFDF0D1D17EA7F00FF8E44 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5L55D9ZCP9;
+					};
+					29FFDF261D17EA7F00FF8E44 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5L55D9ZCP9;
+						TestTargetID = 29FFDF0D1D17EA7F00FF8E44;
+					};
+					29FFDF311D17EA7F00FF8E44 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5L55D9ZCP9;
+						TestTargetID = 29FFDF0D1D17EA7F00FF8E44;
+					};
+				};
+			};
+			buildConfigurationList = 29FFDF091D17EA7F00FF8E44 /* Build configuration list for PBXProject "Demo-MVVM+TimeCountDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29FFDF051D17EA7F00FF8E44;
+			productRefGroup = 29FFDF0F1D17EA7F00FF8E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29FFDF0D1D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDown */,
+				29FFDF261D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownTests */,
+				29FFDF311D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FFDF0C1D17EA7F00FF8E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FFDF211D17EA7F00FF8E44 /* LaunchScreen.storyboard in Resources */,
+				29FFDF1E1D17EA7F00FF8E44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FFDF251D17EA7F00FF8E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FFDF301D17EA7F00FF8E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29FFDF0A1D17EA7F00FF8E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FFDF191D17EA7F00FF8E44 /* ViewController.m in Sources */,
+				29FFDF731D18D96500FF8E44 /* OrderTableViewCellFrames.m in Sources */,
+				29FFDF601D17EDB100FF8E44 /* OrderInfoUIModel.m in Sources */,
+				29FFDF641D17F21E00FF8E44 /* CountdownView.m in Sources */,
+				29FFDF5F1D17EDB100FF8E44 /* OrderInfoModel.m in Sources */,
+				29FFDF671D17F2BB00FF8E44 /* CountDownViewModel.m in Sources */,
+				29FFDF161D17EA7F00FF8E44 /* AppDelegate.m in Sources */,
+				29FFDF721D18D96500FF8E44 /* OrderTableViewCell.m in Sources */,
+				29FFDF131D17EA7F00FF8E44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FFDF231D17EA7F00FF8E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FFDF2C1D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FFDF2E1D17EA7F00FF8E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FFDF371D17EA7F00FF8E44 /* Demo_MVVM_TimeCountDownUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29FFDF291D17EA7F00FF8E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29FFDF0D1D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDown */;
+			targetProxy = 29FFDF281D17EA7F00FF8E44 /* PBXContainerItemProxy */;
+		};
+		29FFDF341D17EA7F00FF8E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29FFDF0D1D17EA7F00FF8E44 /* Demo-MVVM+TimeCountDown */;
+			targetProxy = 29FFDF331D17EA7F00FF8E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29FFDF1F1D17EA7F00FF8E44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29FFDF201D17EA7F00FF8E44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29FFDF391D17EA7F00FF8E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29FFDF3A1D17EA7F00FF8E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29FFDF3C1D17EA7F00FF8E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo-MVVM+TimeCountDown/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongle.Demo-MVVM-TimeCountDown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29FFDF3D1D17EA7F00FF8E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo-MVVM+TimeCountDown/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongle.Demo-MVVM-TimeCountDown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29FFDF3F1D17EA7F00FF8E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Demo-MVVM+TimeCountDownTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongle.Demo-MVVM-TimeCountDownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo-MVVM+TimeCountDown.app/Demo-MVVM+TimeCountDown";
+			};
+			name = Debug;
+		};
+		29FFDF401D17EA7F00FF8E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Demo-MVVM+TimeCountDownTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongle.Demo-MVVM-TimeCountDownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo-MVVM+TimeCountDown.app/Demo-MVVM+TimeCountDown";
+			};
+			name = Release;
+		};
+		29FFDF421D17EA7F00FF8E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Demo-MVVM+TimeCountDownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongle.Demo-MVVM-TimeCountDownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Demo-MVVM+TimeCountDown";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		29FFDF431D17EA7F00FF8E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Demo-MVVM+TimeCountDownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongle.Demo-MVVM-TimeCountDownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Demo-MVVM+TimeCountDown";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29FFDF091D17EA7F00FF8E44 /* Build configuration list for PBXProject "Demo-MVVM+TimeCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FFDF391D17EA7F00FF8E44 /* Debug */,
+				29FFDF3A1D17EA7F00FF8E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FFDF3B1D17EA7F00FF8E44 /* Build configuration list for PBXNativeTarget "Demo-MVVM+TimeCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FFDF3C1D17EA7F00FF8E44 /* Debug */,
+				29FFDF3D1D17EA7F00FF8E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FFDF3E1D17EA7F00FF8E44 /* Build configuration list for PBXNativeTarget "Demo-MVVM+TimeCountDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FFDF3F1D17EA7F00FF8E44 /* Debug */,
+				29FFDF401D17EA7F00FF8E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FFDF411D17EA7F00FF8E44 /* Build configuration list for PBXNativeTarget "Demo-MVVM+TimeCountDownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FFDF421D17EA7F00FF8E44 /* Debug */,
+				29FFDF431D17EA7F00FF8E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29FFDF061D17EA7F00FF8E44 /* Project object */;
+}
